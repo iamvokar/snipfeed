@@ -57,7 +57,7 @@ body{
 #main {
   transition: margin-left .5s;
   padding: 16px;
-  margin-left: 300px;
+  margin-left: 15%;
 }
 .head{
 	padding:20px;
@@ -108,6 +108,9 @@ body{
 
 
 
+
+
+
 hr{
     background-color:#fff ;
     width:100%;
@@ -115,8 +118,4 @@ hr{
 }
 
 
-.svg
-{
-   margin: 0 auto;
-}
 
