@@ -34,6 +34,7 @@ body{
   overflow: hidden;
   transition: 0.5s;
   padding-top: 30px;
+  font-size: 2rem;
 }
 .sidenav a {
   padding: 15px 8px 15px 32px;
@@ -47,12 +48,7 @@ body{
   color: #f1f1f1;
   background-color:#1b203d;
 }
-.sidenav{
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-}
+
 .active
 {
     background-color:#1b203d;
@@ -88,17 +84,18 @@ body{
 
 .Lsidenav {
     height: 100%;
-    width: 40%;
+    width: 30%;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
     background-color: #272c4a;
     padding-top: 10px;
-    padding-right: 30px;
+    font-size: 1rem;
+
   }
   .Lsidenav a {
-    padding: 15px 8px 15px 32px;
+    padding: 15px 0px 15px 32px;
     text-decoration: none;
     font-size: 20px;
     color: #818181;
@@ -108,17 +105,18 @@ body{
   .Lsidenav a:hover {
     color: #f1f1f1;
   }
-  .Lsidenav{
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 36px;
-  }
+
 
 
 hr{
     background-color:#fff ;
-    width: 600px;
+    width:100%;
 
+}
+
+
+.svg
+{
+   margin: 0 auto;
 }
 
